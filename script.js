@@ -9,7 +9,7 @@ let inputDate = new Date(input);
 
 // Take current date
 let currentDate = new Date();
-if (isNaN(inputData)){
+if (isNaN(inputDate)){
     Swal.fire({
         icon: "error",
         title: "Oops...",
