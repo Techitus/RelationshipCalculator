@@ -1,0 +1,44 @@
+.box{
+    border-radius: 9px;
+background: linear-gradient(145deg, #951a29, #b11f30);
+box-shadow:  29px 29px 59px #891825,
+             -29px -29px 59px #c12235;
+}
+
+.input-field{
+background: none;
+border: none;
+outline: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 9999px;
+box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+color: #fff;
+}
+
+button {
+    padding: 5.5px 29px;
+    border: 0;
+    border-radius: 98px;
+    background-color: #8d0a0a;
+    color: #ffffff;
+    font-weight: Bold;
+    font-size: 14px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+   letter-spacing: 1px;
+  }
+  
+  button:hover {
+    background-color: #39080a;
+    box-shadow: 0 0 20px #39050550;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #360404;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }

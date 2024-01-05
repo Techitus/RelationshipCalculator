@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body class="px-20 bg-red-950">
+<div class="parent grid justify-center items-center mt-24 lg:mt-32 xl:mt-44 2xl:mt-52 2xl:mx-32">
+   
+<div class="box h-72 w-56 sm:w-80 lg:h-80 lg:w-96 2xl:w-3/5 2xl:ml-48" >
+
+<h1 class="font-poppins bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-950 text-sm sm:text-xl lg:text-2xl font-bold mx-5 mt-4 text-center">Relationship Calculator</h1> <br>
+<p class="text-white text-[10px] sm:text-xs lg:text-[16px] 2xl:text-[16px] mx-4 sm:ml-6 lg:mx-16 ">Enter a date to see how many days you passed since then:</p>
+<div id="date-input">
+    <input type="date" name="" id="date" class="mt-7 max-w-48 m-6 sm:mx-16 lg:mx-24 lg:max-w-52 2xl:w-72 2xl:ml-28 2xl:mt-10 rounded-md input-field">
+    </div> 
+    <div class="grid justify-center items-center">
+        <button  class="button sm:mx-24 lg:mx-32 2xl:ml-32" onclick="checkDate()">Check</button>
+   
+    </div> 
+
+   </div>
+    <script src="script.js"></script>
+   
+</body>
+</html>
