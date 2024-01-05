@@ -9,8 +9,18 @@ let inputDate = new Date(input);
 
 // Take current date
 let currentDate = new Date();
+if (isNaN(inputData)){
+    Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        background: "url(./broken.jpg)",
+        color: "white",
+        text: "Please Enter a Date.",
+        width: "350px"
+      });
+}
 
-if(currentDate < inputDate){
+else if(currentDate < inputDate){
     Swal.fire({
         icon: "error",
         title: "Oops...",
